@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif+Display:wght@500&display=swap');
+
+body {
+
+    background: rgb(132,19,154);
+    background: linear-gradient(0deg, rgba(132,19,154,1) 0%, rgba(198,144,196,1) 100%);
+
+}
+
+header {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.title {
+
+    color: #FFFFFF;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 40px;
+    border: 5px solid #FFF;
+    border-radius: 50%;
+    padding: 25px;
+    box-shadow: 3px 6px #5d096e;
+
+}
+
+.calculator {
+
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 7px 13px #5d096e;
+
+}
+
+#display {
+
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 20px 10px;
+    font-size: 40px;
+    background-color: #dbd3c2;
+    border-radius: 4px 4px 0 0;
+
+}
+
+.buttons {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom: 3px solid #FFFFFF;
+    border-left: 3px solid #FFFFFF;
+    background-color: #FFFFFF;
+
+}
+
+.buttons > div {
+
+    border-top: 3px solid #FFFFFF;
+    border-right: 3px solid #FFFFFF;
+
+}
+
+.button {
+
+    text-align: center;
+    line-height: 75px;
+    font-size: 25px;
+    border-radius: 10px ;
+    background-color: #8599ad;
+
+}
+
+.button:hover {
+
+    background-color: #47515c;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+}
+
+#equal {
+
+    background-color: #a3a9b0;
+
+}
+
+#equal:hover {
+
+    background-color: #62656a;
+
+}
+
+.footer-text {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.portfolio {
+
+    font-family: 'Noto Serif Display', serif;
+    font-size: 25px;
+    color: #FFFFFF;
+
+}
+
+.portfolio:hover {
+
+    color: #a3a9b0;
+
+}
